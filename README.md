@@ -1,6 +1,6 @@
 # Time Scaler Operator - Python
 
-A simple Kubernetes operator made using KOPF.
+A simple Kubernetes operator made using `KOPF`.
 
 This operator allows you to define a `TimeScale` custom resource that enables time-based scaling of your deployments.
 ```
