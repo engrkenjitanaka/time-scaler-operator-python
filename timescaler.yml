@@ -1,0 +1,11 @@
+apiVersion: "engineerkenji.com/v1"
+kind: TimeScaler
+metadata:
+  name: timescaler-sample
+spec:
+  startTime: 0
+  endTime: 23
+  replicas: 2
+  deployment:
+    - name: nginx
+      namespace: default
